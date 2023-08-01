@@ -3,7 +3,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        int number = 6;
+        Scanner enter = new Scanner(System.in);
+        System.out.println("Please enter a number");
+        int number = enter.nextInt();
+
         int controlValue = 0;
 
         for (int i = 1; i <= number; i++) {
